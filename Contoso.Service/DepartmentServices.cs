@@ -10,6 +10,7 @@ namespace Contoso.Service
 {
     public class DepartmentServices : IDepartmentService
     {
+        //Test
         private readonly IDepartmentRepository _departmentRepository;
         public DepartmentServices(IDepartmentRepository departmentRepository)
         {
